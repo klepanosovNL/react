@@ -1,7 +1,10 @@
 import React from "react";
 
-const TodoListItem = () => {
-    return <span>Drink cofee</span>
+const TodoListItem = ({label, important = false}) => {
+    const style = {
+        backgroundColor: important ? 'tomato' : 'transparent'
+    }
+    return <span style={style}>{label}</span>
 }
 
 export default TodoListItem
