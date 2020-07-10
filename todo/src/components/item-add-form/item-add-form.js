@@ -35,6 +35,7 @@ export default class itemAddForm extends Component {
                 />
                 <button
                     className="btn btn-outline-secondary text-nowrap"
+                    disabled={!this.state.label}
                 >Add item
                 </button>
             </form>
