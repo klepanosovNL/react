@@ -1,0 +1,27 @@
+.header {
+    align-items: center;
+
+    padding: 10px;
+}
+
+.header ul li {
+    padding: .5rem 1rem;
+
+    border-radius: 3px;
+}
+
+.header ul li a:hover {
+    color: #fff;
+}
+
+.header h3 {
+    margin-bottom: 0;
+}
+
+.header h3 a {
+    color: white;
+}
+
+.header h3 a:hover {
+    color: #00bc8c;
+}
